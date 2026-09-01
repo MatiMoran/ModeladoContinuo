@@ -1,1 +1,10 @@
+# Python venv (obsolete, environment now provided by nix)
 .venv/
+
+# Manim render artifacts
+media/
+**/media/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
